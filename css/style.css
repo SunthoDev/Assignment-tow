@@ -155,12 +155,12 @@ header .title .all_item a{
   font-weight: 600;
   font-family: 'Work Sans', sans-serif;
 }
-.feature .all_item .text_part p{
-
+.feature .all_item .text_part p {
     font-size: 16px;
     font-weight: 400;
     color: #727272;
     padding: 15px 0;
+    line-height: 26px;
 }
 
 .feature .all_item .text_part a{
@@ -410,6 +410,93 @@ animation: shipon 2s linear infinite alternate ;
 
 /* our Sponspors part end */
 
+/* testomonial part start */
+
+
+.testomonial .title{
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+.testomonial .title h3{
+    
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.testomonial .title p{
+    color: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px 0;
+}
+
+.testomonial .items{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.testomonial .items .item{
+    
+    width:450px;
+    background-color:white;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 7px;
+    padding: 15px;
+    text-align: center;
+}
+
+.testomonial .items .item .img{
+    width: 70px;
+    height: 70px;
+    background-color: #FF900E;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    overflow: hidden;
+}
+.testomonial .items .item .img img{
+ width: 100%;
+
+}
+
+.testomonial .items .item h2{
+    padding-top: 70px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+}
+
+.testomonial .items .item p{
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 10px;
+
+}
+
+/* testomonial part end */
+
 /* footer part start */
 
 .footer{
@@ -430,6 +517,11 @@ animation: shipon 2s linear infinite alternate ;
 }
 
 /* footer part end */
+
+
+
+
+
 
 
 
@@ -537,6 +629,19 @@ article .love .maine_all .img_part .overlay {
     width: 100%;
 }
 
+
+.testomonial .title {
+    width: 100%;
+}
+.testomonial .items {
+    flex-direction: column;
+    padding: 0 26px;
+}
+.testomonial .items .item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .footer .copyright p {
 	padding: 20px 10px;
 }
@@ -545,25 +650,6 @@ article .love .maine_all .img_part .overlay {
 /*-------------------------------------------
     mobile device responsibe part end
 ---------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
