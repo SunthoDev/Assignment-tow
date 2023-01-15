@@ -641,6 +641,12 @@ article .love .maine_all .img_part .overlay {
     width: 100%;
     margin-bottom: 20px;
 }
+.testomonial .title {
+	padding: 0 10px;
+}
+.footer {
+	margin-top: 30px;
+}
 
 .footer .copyright p {
 	padding: 20px 10px;
